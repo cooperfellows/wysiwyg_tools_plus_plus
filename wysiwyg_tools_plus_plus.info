@@ -1,0 +1,10 @@
+name =  WYSIWYG Tools Plus Plus
+description = Adds the WYSIWYG Tools Plus JS and CSS through hook_init, in addition to node_preprocess from the wysiwyg_tools_plus module so accordions and tabs will function during other node display modes (views, panels, blocks etc...). It also makes minor CSS changes to ensure the "collapsed" class does not hide the tab and accordion header due to other modules CSS implementations.
+
+core = 7.x
+version = "7.x-1.x-dev"
+
+dependencies[] = wysiwyg
+dependencies[] = wysiwyg_tools_plus
+
+package = wysiwyg
